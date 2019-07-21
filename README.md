@@ -9,6 +9,6 @@ This project exploits the Single Shot Detector (SSD) V1 pretrained transfer weig
 
 https://objectdetectiontut.herokuapp.com/
 
-![enter image description here](https://cdn-images-1.medium.com/max/800/1*efAXhtg1Xe4oDCkaG0e0Xg.png)
+![enter image description here](https://miro.medium.com/max/2000/1*up-gIJ9rPkHXUGRoqWuULQ.jpeg)
 
 ![enter image description here](https://cdn-images-1.medium.com/max/800/1*m5GTvwTouNu0DvG7Wa2CRA.jpeg)
