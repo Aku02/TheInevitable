@@ -8,5 +8,5 @@ This project exploits the Single Shot Detector (SSD) V1 pretrained transfer weig
 
 ![enter image description here](https://miro.medium.com/max/2000/1*up-gIJ9rPkHXUGRoqWuULQ.jpeg)
 
-![enter image description here](https://imgur.com/YKF25Kj)
+![enter image description here](https://i.imgur.com/YKF25Kj.png)
 
