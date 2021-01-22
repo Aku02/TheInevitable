@@ -1,0 +1,16 @@
+[
+            "Aortic_enlargement",
+            "Atelectasis",
+            "Calcification",
+            "Cardiomegaly",
+            "Consolidation",
+            "ILD",
+            "Infiltration",
+            "8:",
+            "Nodule_Mass",
+            "Other_lesion",
+            "Pleural_effusion",
+            "Pleural_thickening",
+            "Pneumothorax",
+            "Pulmonary_fibrosis"
+            ]
