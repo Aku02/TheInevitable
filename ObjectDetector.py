@@ -3,16 +3,14 @@ import numpy
 
 
 classNames = {0: 'background',
-              1: 'Aortic_enlargement', 2: 'Atelectasis', 3: 'Calcification', 4: 'Cardiomegaly', 5: 'Consolidation',
-              6: 'ILD', 7: 'Infiltration', 8: 'Lung_Opacity', 9: 'Nodule_Mass', 10: 'Other_lesion', 11: 'Pleural_effusion',
-              12: 'Pleural_thickening', 13: 'Pneumothorax', 14: 'Pulmonary_fibrosis'}
+              1: 'Malaria', 2: 'syphillis'}
 
 
 class Detector:
     def __init__(self):
         global cvNet
-        cvNet = cv.dnn.readNetFromTensorflow('model/frozen_graph.pb',
-                                             'model/frozen_graph.pbtxt')
+        cvNet = cv.dnn.readNetFromTensorflow('model/frozen_inference_graph.pb',
+                                             'model/ssd_mobilenet_v1_coco_2017_11_17.pbtxt')
 
     def detectObject(self, imName):
         img = cv.cvtColor(numpy.array(imName), cv.COLOR_BGR2RGB)
